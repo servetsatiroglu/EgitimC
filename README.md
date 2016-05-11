@@ -2,4 +2,4 @@
 
 KTUCEC aracılığıyla C uygulamaları yapılan gruplar için hazırlanmıştır.
 
-Komutların kullanımına için basit örnekler içermektedir.
+Komutların kullanımı için basit örnekler içermektedir.
