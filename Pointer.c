@@ -1,5 +1,5 @@
 #include<stdio.h>
-//Matrisin Elemanlarýný Ýndisleri Çarpýmý Yapýyor
+//Matrisin Elemanlarini Indisleri Ã‡arpimi Yapiyor
 void myIntialize(int *param,const int rows,const int columns);
 
 int main (){
