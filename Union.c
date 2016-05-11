@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//Union da Bellek Kullanýmý
+//Union da Bellek Kullanimi
 union Data {
 	int i;
 	float f;
