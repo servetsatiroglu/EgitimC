@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-//Struct Yapýsý Kullanýlýrak Ad ve Soyad Giriþi
+/*Struct Yapisi Kullanilarak Ad ve Soyad Girisi*/
 struct Kimlik{
 	char ad[100];
 	char soyad[100];
