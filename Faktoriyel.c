@@ -1,5 +1,5 @@
 #include<stdio.h>
- 
+ //Fonksiyon İle Faktoriyel Hesaplama
 long faktoriyel(int);
  
 int main()
