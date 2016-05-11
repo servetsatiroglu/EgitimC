@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Integer Sayılar İçin Geçerli
 int main(){
 	int islem,sonuc,sayi1,sayi2;
 	printf("toplama icin 1 \ncikarma icin 2 \nbolme   icin 3 \ncarpma  icin 4\t yazin\n");
