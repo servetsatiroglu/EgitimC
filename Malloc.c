@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//Malloc kullanýmý
+//Malloc kullanimi
 int main()
 {
    char *str;
-	//bellekte yer açýlýr
+	//bellekte yer aÃ§ilir
    str = (char *) malloc(15);
    strcpy(str, "KTU");
    printf("String = %s,  Address = %u\n", str, str);
 
-   //açýlan yerin alanýn üstüne yazýlarak tekrar kullanýmý
+   //aÃ§ilan yerin alanin Ã¼stÃ¼ne yazilarak tekrar kullanimi
    str = (char *) realloc(str, 25);
-   strcat(str, "CEC"); //string leri birleþtirir.
+   strcat(str, "CEC"); //string leri birlestirir.
    printf("String = %s,  Address = %u\n", str, str);
 
-   free(str); //str için mallocla açýlan alaný serbest býrakýr
+   free(str); //str iÃ§in mallocla aÃ§ilan alani serbest birakir
    
    return(0);
 }
-//Tutorialspoint den alýnmýþtýr
+//Tutorialspoint den alinmistir
